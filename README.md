@@ -70,7 +70,7 @@ leave-management-system/
 ### Prerequisites
 - Node.js (v14 or higher)
 - MongoDB (v4.4 or higher)
-- npm or yarn
+- npm 
 
 ### Step 1: Clone the Repository
 ```bash
@@ -299,31 +299,9 @@ Every admin action is logged with:
 - Timestamp
 - Descriptive message
 
-## 🚀 Deployment
-
-### Backend Deployment (Example: Heroku)
-```bash
-cd server
-heroku create your-app-name-backend
-heroku config:set MONGODB_URI=<your-mongodb-atlas-uri>
-heroku config:set JWT_SECRET=<your-secret-key>
-git push heroku main
-```
-
-### Frontend Deployment (Example: Netlify)
-```bash
-cd client
-npm run build
-# Deploy the build folder to Netlify
-```
-
 ## 📄 License
 
 This project is open source and available for educational purposes.
-
-## 👨‍💻 Author
-
-Created as part of a Software Engineer (Backend Focused) assignment.
 
 ## 🙏 Acknowledgments
 
